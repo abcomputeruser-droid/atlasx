@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <!-- Home -->
+  <url>
+    <loc>https://www.atlascomparts.com/</loc>
+    <lastmod>2026-04-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://www.atlascomparts.com/assets/images/products/raven-b450m-frost-main.png</image:loc>
+      <image:title>Atlas – Affordable Motherboards &amp; Monitors | Bangladesh</image:title>
+    </image:image>
+  </url>
+
+  <!-- Category / Listing Pages -->
+  <url>
+    <loc>https://www.atlascomparts.com/all-products</loc>
+    <lastmod>2026-04-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.atlascomparts.com/monitors</loc>
+    <lastmod>2026-04-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://www.atlascomparts.com/assets/images/products/ats22ifw100-main.png</image:loc>
+      <image:title>Atlas Monitors – Full HD, 100Hz IPS &amp; LED Displays</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.atlascomparts.com/motherboards</loc>
+    <lastmod>2026-04-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://www.atlascomparts.com/assets/images/products/raven-h311-v1-main.png</image:loc>
+      <image:title>Atlas Motherboards – Intel &amp; AMD Platforms with DDR4 &amp; M.2</image:title>
+    </image:image>
+  </url>
+
+  <!-- Monitor Product Pages -->
+  <url>
+    <loc>https://www.atlascomparts.com/atlas-17-inch-square-led-monitor-hdmi-vga-anti-glare-5ms-response</loc>
+    <lastmod>2026-04-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.atlascomparts.com/assets/images/products/monitor-17-square-main.png</image:loc>
+      <image:title>Atlas 17 Inch Square LED Monitor – HDMI &amp; VGA, Anti-Glare, 5ms</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.atlascomparts.com/atlas-19-full-hd-led-monitor-with-hdmi-vga-ports</loc>
+    <lastmod>2026-04-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.atlascomparts.com/assets/images/products/monitor-19-main.png</image:loc>
+      <image:title>Atlas 19 Inch Full HD LED Monitor – HDMI &amp; VGA, 5ms Response</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.atlascomparts.com/atlas-22-hd-led-monitor-1610-aspect-ratio-vga-hdmi-input</loc>
+    <lastmod>2026-04-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.atlascomparts.com/assets/images/products/monitor-22-hd-main.png</image:loc>
+      <image:title>Atlas 22 Inch HD LED Monitor – 16:10, VGA &amp; HDMI</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.atlascomparts.com/atlas-ats22ifw100-pro-series-21-5-ips-100hz-led-monitor-in-white-crisp-visuals</loc>
+    <lastmod>2026-04-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.atlascomparts.com/assets/images/products/ats22ifw100-main.png</image:loc>
+      <image:title>Atlas ATS22IFW100 – 21.5 Inch IPS 100Hz White LED Monitor</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.atlascomparts.com/atlas-ats22vfb100-22-inch-full-hd-100hz-monitor-for-editors-pros</loc>
+    <lastmod>2026-04-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.atlascomparts.com/assets/images/products/ats22vfb100-main.png</image:loc>
+      <image:title>Atlas ATS22VFB100 – 22 Inch Full HD 100Hz Monitor for Editors &amp; Pros</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.atlascomparts.com/atlas-ats22vfw100-gamers-edition-21-5-100hz-fast-response-gaming-led-monitor</loc>
+    <lastmod>2026-04-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.atlascomparts.com/assets/images/products/ats22vfw100-main.png</image:loc>
+      <image:title>Atlas ATS22VFW100 – 21.5 Inch 100Hz Gaming Monitor Fast Response</image:title>
+    </image:image>
+  </url>
+
+  <!-- Motherboard Product Pages -->
+  <url>
+    <loc>https://www.atlascomparts.com/atlas-raven-b450m-frost-micro-atx-am4-motherboard-with-ryzen-1000-5600-support</loc>
+    <lastmod>2026-04-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.atlascomparts.com/assets/images/products/raven-b450m-frost-main.png</image:loc>
+      <image:title>Atlas Raven B450M Frost – AMD Ryzen AM4 Micro-ATX Motherboard</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.atlascomparts.com/atlas-raven-h311-v1-motherboard-with-ddr4-m-2-for-intel-6th-9th-gen</loc>
+    <lastmod>2026-04-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.atlascomparts.com/assets/images/products/raven-h311-v1-main.png</image:loc>
+      <image:title>Atlas Raven H311 V1 – Intel 6th–9th Gen DDR4 Micro-ATX Motherboard</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.atlascomparts.com/atlas-raven-h61-v3-motherboard-with-ddr3-hdmi-m-2-nvme-slot</loc>
+    <lastmod>2026-04-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.atlascomparts.com/assets/images/products/raven-h61-v3-main.png</image:loc>
+      <image:title>Atlas Raven H61 V3 – Intel 2nd–3rd Gen DDR3 Motherboard with M.2 NVMe</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.atlascomparts.com/atlas-raven-h81-v3-reliable-atx-motherboard-for-4th-gen-intel-cpus</loc>
+    <lastmod>2026-04-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.atlascomparts.com/assets/images/products/raven-h81-v3-main.png</image:loc>
+      <image:title>Atlas Raven H81 V3 – Intel 4th Gen ATX Motherboard DDR3</image:title>
+    </image:image>
+  </url>
+
+  <!-- Company / Info Pages -->
+  <url>
+    <loc>https://www.atlascomparts.com/about</loc>
+    <lastmod>2026-04-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.atlascomparts.com/company</loc>
+    <lastmod>2026-04-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.atlascomparts.com/support</loc>
+    <lastmod>2026-04-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Legal Pages -->
+  <url>
+    <loc>https://www.atlascomparts.com/privacy</loc>
+    <lastmod>2026-04-19</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.atlascomparts.com/terms</loc>
+    <lastmod>2026-04-19</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+</urlset>

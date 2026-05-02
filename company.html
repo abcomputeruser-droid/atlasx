@@ -1,0 +1,445 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="description" content="Atlas designs and distributes reliable motherboards and monitors across Bangladesh. Manufacturing-grade quality control, retail & corporate distribution, and Dhaka service center." />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="robots" content="index, follow" />
+  <meta name="theme-color" content="#0f131c" />
+  <meta name="color-scheme" content="light" />
+  <meta name="format-detection" content="telephone=no" />
+  <meta name="keywords" content="Atlas hardware company Bangladesh, Atlas manufacturer distributor, PC hardware company Bangladesh, Atlas Dhaka, computer hardware brand Bangladesh, Atlas corporate" />
+  <meta property="og:title" content="Atlas Company – PC Hardware Manufacturer & Distributor | Bangladesh" />
+  <meta property="og:description" content="Atlas designs and distributes reliable motherboards and monitors across Bangladesh. Manufacturing-grade quality control, retail & corporate distribution, and Dhaka service center." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="/assets/images/products/raven-b450m-frost-main.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Atlas Company – PC Hardware Manufacturer & Distributor | Bangladesh" />
+  <meta name="twitter:description" content="Atlas designs and distributes reliable motherboards and monitors across Bangladesh. Manufacturing-grade quality control, retail & corporate distribution, and Dhaka service center." />
+  <meta name="twitter:image" content="/assets/images/products/raven-b450m-frost-main.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <link rel="canonical" href="https://www.atlascomparts.com/company" />
+  <title>Atlas Company – PC Hardware Manufacturer & Distributor | Bangladesh</title>
+  <link rel="icon" href="favicon.ico" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="motion-bg" aria-hidden="true">
+    <span class="orb orb-a"></span>
+    <span class="orb orb-b"></span>
+    <span class="orb orb-c"></span>
+    <span class="orb orb-d"></span>
+  </div>
+  <header class="site-header" data-nav="site" data-tagline="Company" data-btn-text="Home" data-btn-href="index.html"></header>
+
+  <main>
+    <section class="hero hero-single" id="company-hero">
+      <div class="container hero-single-inner">
+        <div class="hero-text">
+          <p class="eyebrow">Company · Founded 2020</p>
+          <div class="hero-pills">
+            <span class="hero-pill">Reliable</span>
+            <span class="hero-pill">Performance</span>
+            <span class="hero-pill">Design Focused</span>
+          </div>
+          <h1>Built on Precision.</h1>
+          <p>Motherboards and monitors built for real workloads. Intel 2nd–9th gen, AMD Ryzen 1000–5600, displays 17–24 inches. Warranty included.</p>
+          <div class="hero-actions">
+            <a class="cta" href="#story">Our Story</a>
+            <a class="cta ghost" href="support.html">Support Center</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <style>
+      .hero-pills {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin-bottom: 18px;
+      }
+      .hero-pill {
+        display: inline-block;
+        padding: 4px 14px;
+        border-radius: 999px;
+        font-size: 12px;
+        font-weight: 600;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        border: 1px solid rgba(15, 23, 42, 0.14);
+        color: var(--ink-soft);
+        background: rgba(15, 23, 42, 0.05);
+      }
+
+      #story {
+        position: relative;
+        overflow: hidden;
+        background: linear-gradient(160deg, #07090f 0%, #101828 60%, #0c1220 100%);
+        color: #fff;
+      }
+      #story .eyebrow { color: var(--accent); }
+      #story h2 { color: #fff; }
+      #story p  { color: rgba(255,255,255,0.7); }
+      #story .company-list li { color: rgba(255,255,255,0.8); }
+      #story .company-list li::before { background: var(--accent-2); }
+      #story .container { position: relative; z-index: 2; }
+
+      .story-split {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 32px;
+        margin-top: 24px;
+      }
+      .story-block p { margin-bottom: 12px; }
+      .story-footer {
+        margin-top: 20px;
+        font-size: 14px;
+        opacity: 0.55;
+      }
+      @media (max-width: 700px) {
+        .story-split { grid-template-columns: 1fr; gap: 20px; }
+      }
+
+      .story-lines {
+        position: absolute;
+        inset: 0;
+        z-index: 0;
+        background: repeating-linear-gradient(
+          90deg,
+          rgba(255,255,255,0.028) 0px,
+          rgba(255,255,255,0.028) 1px,
+          transparent 1px,
+          transparent 72px
+        );
+        animation: story-speed 1.4s linear infinite;
+        transform-origin: left center;
+      }
+      @keyframes story-speed {
+        0%   { background-position-x: 0px; }
+        100% { background-position-x: 72px; }
+      }
+
+      .story-drop {
+        position: absolute;
+        border-radius: 50%;
+        z-index: 1;
+        animation: story-drop-anim var(--dur) ease-in-out infinite;
+        animation-delay: var(--delay);
+        pointer-events: none;
+        opacity: 0;
+      }
+      @keyframes story-drop-anim {
+        0%   { transform: scale(0);   opacity: 0; }
+        15%  { opacity: 1; }
+        60%  { transform: scale(1);   opacity: 0.55; }
+        100% { transform: scale(1.4); opacity: 0; }
+      }
+      .story-drop-1 {
+        --dur: 5s; --delay: 0s;
+        width: 220px; height: 220px;
+        top: 10%; left: 65%;
+        background: radial-gradient(circle, rgba(255,77,45,0.6), transparent 70%);
+        filter: blur(22px);
+      }
+      .story-drop-2 {
+        --dur: 6.5s; --delay: -2s;
+        width: 180px; height: 180px;
+        top: 55%; left: 80%;
+        background: radial-gradient(circle, rgba(45,212,255,0.5), transparent 70%);
+        filter: blur(18px);
+      }
+      .story-drop-3 {
+        --dur: 5.8s; --delay: -4s;
+        width: 150px; height: 150px;
+        top: 30%; left: 72%;
+        background: radial-gradient(circle, rgba(255,183,3,0.55), transparent 70%);
+        filter: blur(16px);
+      }
+      .story-drop-4 {
+        --dur: 7s; --delay: -1.5s;
+        width: 120px; height: 120px;
+        top: 70%; left: 58%;
+        background: radial-gradient(circle, rgba(255,77,45,0.45), transparent 70%);
+        filter: blur(14px);
+      }
+      .story-drop-5 {
+        --dur: 6s; --delay: -3s;
+        width: 100px; height: 100px;
+        top: 15%; left: 88%;
+        background: radial-gradient(circle, rgba(45,212,255,0.4), transparent 70%);
+        filter: blur(12px);
+      }
+    </style>
+
+    <section class="section company-section" id="story">
+      <div class="story-lines" aria-hidden="true"></div>
+      <div class="story-drop story-drop-1" aria-hidden="true"></div>
+      <div class="story-drop story-drop-2" aria-hidden="true"></div>
+      <div class="story-drop story-drop-3" aria-hidden="true"></div>
+      <div class="story-drop story-drop-4" aria-hidden="true"></div>
+      <div class="story-drop story-drop-5" aria-hidden="true"></div>
+      <div class="container">
+        <div class="company-content">
+          <p class="eyebrow">Brand Story</p>
+          <h2>Born from a simple need. Built for the real world.</h2>
+          <p>Atlas didn't start with grand ambitions. It started with a question: why should getting reliable hardware be this complicated? The answer became the brand.</p>
+          <div class="story-split">
+            <div class="story-block">
+              <p>Monitors from 17 to 24 inches now sit on desks in schools, shops, and server rooms across Bangladesh, with IPS and VA panels built for daily use and HDMI and VGA on every display.</p>
+              <ul class="company-list">
+                <li>IPS and VA panels across the monitor range</li>
+                <li>HDMI and VGA connectivity on every display</li>
+                <li>60–100Hz refresh rate options</li>
+              </ul>
+            </div>
+            <div class="story-block">
+              <p>The RAVEN motherboard series covers the builds that actually exist in the real world: Intel 2nd through 9th gen, and AMD Ryzen all the way from the 1000 series to the 5600. Four boards, two ecosystems, years of platform support.</p>
+              <ul class="company-list">
+                <li>Intel 2nd–9th gen: H61 V3, H81 V3, H311 V1</li>
+                <li>AMD Ryzen 1000–5600: B450M Frost</li>
+                <li>LGA and AM4 socket support</li>
+              </ul>
+            </div>
+          </div>
+          <p class="story-footer">1 to 3 year warranty on all products.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="highlights">
+      <div class="container">
+        <div class="section-title">Atlas at a Glance</div>
+        <div class="overview-stats">
+          <div class="stat-card">
+            <span class="stat-value">Intel 2nd–9th</span>
+            <span class="stat-label">Core Gen Coverage</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-value">Ryzen 1000–5600</span>
+            <span class="stat-label">AMD AM4 Coverage</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-value">17–24"</span>
+            <span class="stat-label">Monitor Range</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-value">1–3 Year</span>
+            <span class="stat-label">Manufacturer Warranty</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-value">4 Boards</span>
+            <span class="stat-label">H61 V3 · H81 V3 · H311 V1 · B450M Frost</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="offerings">
+      <div class="container">
+        <div class="section-title">What We Build</div>
+        <div class="cards">
+          <div class="card">
+            <h3>RAVEN Motherboards</h3>
+            <p>Four board models covering Intel 2nd through 9th gen and AMD Ryzen 1000 through 5600. H61 V3 and H81 V3 handle budget Intel builds on LGA1155. H311 V1 extends support to Intel 6th–9th gen with DDR4 and M.2. B450M Frost brings full AM4 support for the entire Ryzen lineup up to the 5600.</p>
+            <p class="muted">H61 V3 · H81 V3 · H311 V1 · B450M Frost. LGA1155, LGA1150, AM4.</p>
+          </div>
+          <div class="card">
+            <h3>Monitors</h3>
+            <p>LED displays from 17 to 24 inches built for daily use in offices, classrooms, shops, and CCTV setups. IPS panels for colour accuracy and VA for contrast-heavy environments. Every display ships with both HDMI and VGA so it connects to anything.</p>
+            <p class="muted">60–100Hz. IPS and VA. HDMI and VGA standard. · 17" Square · 19" Full HD · 21.5" FHD 60Hz · 21.5" FHD 100Hz · ATS22VFB100 · ATS22IFW100 · ATS22VFW100 · ATS22VFW100E · ATS24IFB100</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section company-section" id="quality">
+      <div class="container">
+        <div class="company-content">
+          <p class="eyebrow">Quality and Manufacturing</p>
+          <h2>Controlled production, verified results.</h2>
+          <p>Atlas hardware is manufactured under controlled production standards with batch-level traceability from assembly through shipment. Every board and display goes through a structured process before it leaves the facility.</p>
+          <p>Motherboards are tested for POST stability, slot integrity, and thermal behaviour under load. Monitors go through panel calibration, backlight uniformity checks, and port verification before packaging.</p>
+          <ul class="company-list">
+            <li>Multi-stage assembly and inspection checkpoints</li>
+            <li>POST and slot integrity testing on every motherboard</li>
+            <li>Panel calibration and backlight checks on every monitor</li>
+            <li>Final QC sign-off before packaging and shipment</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <style>
+      #distribution {
+        position: relative;
+        overflow: hidden;
+        background: linear-gradient(135deg, #0f141b 0%, #1d2840 100%);
+        color: #fff;
+      }
+      #distribution h2 { color: #fff; }
+      #distribution p { color: rgba(255,255,255,0.72); }
+      #distribution .stat {
+        background: rgba(255,255,255,0.06);
+        border: 1px solid rgba(255,255,255,0.12);
+        box-shadow: none;
+      }
+      #distribution .value {
+        color: #2dd4ff;
+        font-size: 20px;
+      }
+      #distribution .label { color: rgba(255,255,255,0.5); }
+      #distribution::before {
+        content: '';
+        position: absolute;
+        inset: 0;
+        pointer-events: none;
+        background:
+          radial-gradient(700px 400px at 5% 85%, rgba(255,77,45,0.3), transparent 60%),
+          radial-gradient(600px 380px at 95% 10%, rgba(45,212,255,0.22), transparent 60%),
+          radial-gradient(400px 300px at 50% 50%, rgba(255,183,3,0.12), transparent 60%);
+        animation: quality-shift 9s ease-in-out infinite alternate;
+        z-index: 0;
+      }
+      #distribution::after {
+        content: '';
+        position: absolute;
+        inset: 0;
+        pointer-events: none;
+        background: repeating-linear-gradient(
+          120deg,
+          rgba(255,255,255,0.025) 0px,
+          rgba(255,255,255,0.025) 1px,
+          transparent 1px,
+          transparent 52px
+        );
+        z-index: 0;
+      }
+      #distribution .container { position: relative; z-index: 1; }
+      .dist-orb {
+        position: absolute;
+        border-radius: 50%;
+        pointer-events: none;
+        z-index: 0;
+        animation: quality-float 7s ease-in-out infinite alternate;
+      }
+      .dist-orb-a {
+        width: 260px; height: 260px;
+        background: radial-gradient(circle, rgba(45,212,255,0.3), transparent 70%);
+        top: -60px; right: -60px;
+        filter: blur(50px);
+        animation-delay: 0s;
+      }
+      .dist-orb-b {
+        width: 220px; height: 220px;
+        background: radial-gradient(circle, rgba(255,77,45,0.28), transparent 70%);
+        bottom: -40px; left: -40px;
+        filter: blur(45px);
+        animation-delay: -3s;
+      }
+    </style>
+
+    <section class="section build" id="distribution">
+      <div class="dist-orb dist-orb-a" aria-hidden="true"></div>
+      <div class="dist-orb dist-orb-b" aria-hidden="true"></div>
+      <div class="container build-grid">
+        <div>
+          <h2>Distribution and Availability</h2>
+          <p>Atlas products are available through authorized retailers and distribution partners across Bangladesh. AB Computer has been the official distributor since 2020, handling retail stock, warranty processing, and corporate supply.</p>
+          <p>Corporate and institutional buyers can place bulk orders directly through the distribution channel. Walk-in customers can find Atlas hardware at authorized retail outlets across Dhaka and beyond.</p>
+        </div>
+        <div class="stats">
+          <div class="stat">
+            <div class="value">AB Computer</div>
+            <div class="label">Official distributor since 2020</div>
+          </div>
+          <div class="stat">
+            <div class="value">Corporate</div>
+            <div class="label">Bulk and institutional orders</div>
+          </div>
+          <div class="stat">
+            <div class="value">Dhaka</div>
+            <div class="label">Primary service and retail hub</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="principles">
+      <div class="container">
+        <div class="section-title">Our Principles</div>
+        <div class="cards">
+          <div class="card">
+            <p class="eyebrow">No Compromise on Access</p>
+            <h3>Every setup deserves hardware that works.</h3>
+            <p>Atlas products are built for the student setting up their first desk, the shop owner running a CCTV rack, the school lab replacing ageing machines, and the small office that just needs displays that turn on every morning without drama. Real buyers with real workloads.</p>
+          </div>
+          <div class="card">
+            <p class="eyebrow">Honesty Over Hype</p>
+            <h3>We say what it does. Nothing more.</h3>
+            <p>No gaming branding on a 60Hz office panel. No inflated specs on a budget chipset. Atlas product listings state panel type, ports, socket, supported generations, refresh rate, and warranty. Buyers know what they are getting before the box is opened.</p>
+          </div>
+          <div class="card">
+            <p class="eyebrow">Built to Last Daily Use</p>
+            <h3>Reliability is the only feature that matters.</h3>
+            <p>Eight hours a day, five days a week, year after year. Stable thermals on the RAVEN boards, solid port construction on every display, and panels calibrated for consistent output over time. Atlas hardware is bought once and expected to last.</p>
+          </div>
+          <div class="card">
+            <p class="eyebrow">Backed After the Sale</p>
+            <h3>The warranty is a real promise.</h3>
+            <p>Every Atlas product carries a 1 to 3 year manufacturer warranty processed through the official distribution channel. Service requests are handled through AB Computer and the Atlas support process. The warranty covers the unit, not just the paperwork.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="next">
+      <div class="container">
+        <div class="section-title">Next Steps</div>
+        <div class="cards">
+          <div class="card">
+            <h3>Support and Warranty</h3>
+            <p>Submit a service request, check warranty eligibility, or get help with diagnostics for any Atlas product.</p>
+            <a class="cta" href="support.html">Support Center</a>
+          </div>
+          <div class="card">
+            <h3>Explore Products</h3>
+            <p>Browse the full RAVEN motherboard lineup and the complete monitor range, with specs and compatibility details.</p>
+            <a class="cta ghost" href="all-products.html">All Products</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <h4>Atlas</h4>
+        <p>Hardware built for dependable performance.</p>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <a href="company.html">Company</a>
+        <a href="about-atlas.html">About Atlas</a>
+      </div>
+      <div>
+        <h4>Support</h4>
+        <a href="support.html">Support</a>
+      </div>
+      <div>
+        <h4>Legal</h4>
+        <a href="privacy-policy.html">Privacy Policy</a>
+        <a href="terms-conditions.html">Terms &amp; Conditions</a>
+      </div>
+    </div>
+    <div class="footer-bottom">© 2026 Atlas. All Rights Reserved.</div>
+  </footer>
+  <script defer src="seo.js"></script>
+  <script defer src="image-optimizer.js"></script>
+  <script defer src="nav.js"></script>
+  <script defer src="site.js"></script>
+</body>
+</html>

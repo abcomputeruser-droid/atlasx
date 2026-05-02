@@ -1,0 +1,684 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="description" content="Contact Atlas support in Bangladesh — phone, email, and Dhaka service center. 1 to 3 year warranty, 6-hour response, RMA process, and 24/7 ticket intake for motherboards and monitors." />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="robots" content="index, follow" />
+  <meta name="theme-color" content="#0f131c" />
+  <meta name="color-scheme" content="light" />
+  <meta name="format-detection" content="telephone=no" />
+  <meta name="keywords" content="Atlas support Bangladesh, Atlas warranty service, Atlas RMA Bangladesh, Atlas Dhaka service center, Atlas hardware support, motherboard warranty Bangladesh, monitor warranty Bangladesh" />
+  <meta property="og:title" content="Atlas Support – Warranty, RMA & Contact | Dhaka Service Center" />
+  <meta property="og:description" content="Contact Atlas support in Bangladesh — phone, email, and Dhaka service center. 1 to 3 year warranty, 6-hour response, RMA process, and 24/7 ticket intake for motherboards and monitors." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="/assets/images/products/raven-b450m-frost-main.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Atlas Support – Warranty, RMA & Contact | Dhaka Service Center" />
+  <meta name="twitter:description" content="Contact Atlas support in Bangladesh — phone, email, and Dhaka service center. 1 to 3 year warranty, 6-hour response, RMA process, and 24/7 ticket intake for motherboards and monitors." />
+  <meta name="twitter:image" content="/assets/images/products/raven-b450m-frost-main.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <link rel="canonical" href="https://www.atlascomparts.com/support" />
+  <title>Atlas Support – Warranty, RMA & Contact | Dhaka Service Center</title>
+  <link rel="icon" href="favicon.ico" />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <style>
+    .inq-toast {
+      display: none;
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      z-index: 2000;
+      background: linear-gradient(120deg, var(--accent, #ff4d2d) 0%, var(--accent-2, #ffb703) 100%);
+      color: #fff;
+      padding: 0.75rem 1.5rem;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      box-shadow: 0 4px 24px rgba(255,77,45,0.28);
+      font-family: var(--font-body, "Figtree", sans-serif);
+      font-size: 0.875rem;
+      font-weight: 600;
+      transform: translateY(-100%);
+      transition: transform 0.35s cubic-bezier(0.34,1.3,0.64,1);
+    }
+    .inq-toast.visible {
+      display: flex;
+      transform: translateY(0);
+    }
+    .inq-toast-msg { flex: 1; }
+    .inq-toast-timer {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      font-size: 0.78rem;
+      opacity: 0.9;
+      white-space: nowrap;
+      flex-shrink: 0;
+    }
+    .inq-toast-ring {
+      width: 22px; height: 22px;
+      flex-shrink: 0;
+    }
+    .inq-toast-ring circle {
+      fill: none;
+      stroke: rgba(255,255,255,0.35);
+      stroke-width: 3;
+    }
+    .inq-toast-ring .progress {
+      stroke: #fff;
+      stroke-linecap: round;
+      stroke-dasharray: 57;
+      stroke-dashoffset: 0;
+      transition: stroke-dashoffset 1s linear;
+      transform: rotate(-90deg);
+      transform-origin: 50% 50%;
+    }
+    .inq-toast-close {
+      background: rgba(255,255,255,0.2);
+      border: none;
+      border-radius: 999px;
+      color: #fff;
+      cursor: pointer;
+      width: 26px; height: 26px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 0.8rem;
+      flex-shrink: 0;
+      transition: background 0.18s;
+    }
+    .inq-toast-close:hover { background: rgba(255,255,255,0.35); }
+  </style>
+</head>
+<body>
+  <div class="inq-toast" id="inqToast" role="alert" aria-live="polite">
+    <span class="inq-toast-msg">✓ Inquiry submitted — our team will respond within 6 hours.</span>
+    <span class="inq-toast-timer">
+      <svg class="inq-toast-ring" viewBox="0 0 22 22" aria-hidden="true">
+        <circle cx="11" cy="11" r="9"/>
+        <circle class="progress" id="toastProgress" cx="11" cy="11" r="9"/>
+      </svg>
+      <span id="toastCountdown">8</span>s
+    </span>
+    <button class="inq-toast-close" id="inqToastClose" aria-label="Dismiss">✕</button>
+  </div>
+  <div class="motion-bg" aria-hidden="true">
+    <span class="orb orb-a"></span>
+    <span class="orb orb-b"></span>
+    <span class="orb orb-c"></span>
+    <span class="orb orb-d"></span>
+  </div>
+  <header class="site-header" data-nav="site" data-tagline="Support Center" data-btn-text="Home" data-btn-href="index.html"></header>
+
+  <main>
+    <section class="hero hero-single">
+      <div class="container hero-single-inner">
+        <div class="hero-text">
+          <p class="eyebrow">Support</p>
+          <h1>We are here to keep your build running.</h1>
+          <p>Reach Atlas support for product help, warranty service, and order guidance.</p>
+          <div class="hero-actions">
+            <a class="cta" href="#contact">Contact Us</a>
+            <a class="cta ghost" href="company.html">Company</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <style>
+      .contact-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2.5rem;
+        align-items: start;
+        margin-top: 2rem;
+      }
+      @media (max-width: 768px) {
+        .contact-grid { grid-template-columns: 1fr; }
+      }
+      .inquiry-wrap {
+        margin-top: 2.5rem;
+        background: var(--card-bg, #fff);
+        border: 1px solid var(--border, rgba(0,0,0,0.08));
+        border-radius: 16px;
+        padding: 2rem 2rem 2rem;
+        box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+      }
+      .inquiry-wrap h3 {
+        margin: 0 0 0.35rem;
+        font-size: 1.05rem;
+        font-weight: 700;
+      }
+      .inquiry-wrap .inquiry-sub {
+        font-size: 0.85rem;
+        color: var(--muted, #666);
+        margin: 0 0 1.5rem;
+      }
+      .inq-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 1rem; }
+      @media (max-width: 768px) { .inq-row { grid-template-columns: 1fr 1fr; } }
+      @media (max-width: 480px) { .inq-row { grid-template-columns: 1fr; } }
+      .inq-row-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-top: 1rem; }
+      @media (max-width: 480px) { .inq-row-2 { grid-template-columns: 1fr; } }
+      .inq-field { display: flex; flex-direction: column; gap: 0.3rem; }
+      .inq-field.full { margin-top: 1rem; }
+      .inq-field label {
+        font-size: 0.75rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        color: var(--muted, #555);
+      }
+      .inq-field input,
+      .inq-field select,
+      .inq-field textarea {
+        padding: 0.6rem 0.85rem;
+        border-radius: 8px;
+        border: 1px solid var(--border, rgba(0,0,0,0.14));
+        background: #f8f9fb;
+        font-size: 0.875rem;
+        color: var(--text, #111);
+        outline: none;
+        width: 100%;
+        box-sizing: border-box;
+        transition: border-color 0.18s, box-shadow 0.18s;
+        font-family: inherit;
+      }
+      .inq-field input:focus,
+      .inq-field select:focus,
+      .inq-field textarea:focus {
+        border-color: #2563eb;
+        box-shadow: 0 0 0 3px rgba(37,99,235,0.1);
+      }
+      .inq-field textarea { resize: vertical; min-height: 100px; }
+      .inq-footer {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 1rem;
+        margin-top: 1.25rem;
+      }
+      .inq-footer p {
+        font-size: 0.78rem;
+        color: var(--muted, #666);
+        margin: 0;
+      }
+      .inq-success {
+        display: none;
+        text-align: center;
+        padding: 1.5rem;
+        color: #16a34a;
+        font-weight: 600;
+        font-size: 0.95rem;
+      }
+      .bdm-card {
+        background: var(--card-bg, #fff);
+        border: 1px solid var(--border, rgba(0,0,0,0.08));
+        border-radius: 16px;
+        padding: 2rem 1.75rem;
+        box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+        display: flex;
+        flex-direction: column;
+        gap: 1.25rem;
+      }
+      .bdm-profile {
+        display: flex;
+        align-items: center;
+        gap: 1.1rem;
+      }
+      .bdm-avatar {
+        width: 72px; height: 72px;
+        border-radius: 50%;
+        overflow: hidden;
+        flex-shrink: 0;
+        background: linear-gradient(135deg, #1e3a5f 0%, #2563eb 100%);
+        display: flex; align-items: center; justify-content: center;
+        font-size: 1.6rem;
+        font-weight: 700;
+        color: #fff;
+        letter-spacing: 0.02em;
+        border: 3px solid rgba(37,99,235,0.15);
+      }
+      .bdm-avatar img {
+        width: 100%; height: 100%;
+        object-fit: cover;
+        display: block;
+      }
+      .bdm-identity { min-width: 0; }
+      .bdm-identity h3 { margin: 0 0 0.2rem; font-size: 1.05rem; font-weight: 700; }
+      .bdm-identity .bdm-title {
+        font-size: 0.8rem;
+        font-weight: 600;
+        color: #2563eb;
+        text-transform: uppercase;
+        letter-spacing: 0.06em;
+        margin: 0 0 0.25rem;
+      }
+      .bdm-identity .bdm-dept {
+        font-size: 0.8rem;
+        color: var(--muted, #666);
+        margin: 0;
+      }
+      .bdm-divider {
+        border: none;
+        border-top: 1px solid var(--border, rgba(0,0,0,0.08));
+        margin: 0;
+      }
+      .bdm-details { display: flex; flex-direction: column; gap: 0.65rem; }
+      .bdm-detail {
+        display: flex;
+        align-items: center;
+        gap: 0.7rem;
+        font-size: 0.875rem;
+      }
+      .bdm-detail-icon {
+        width: 32px; height: 32px;
+        border-radius: 8px;
+        background: #f1f5fd;
+        display: flex; align-items: center; justify-content: center;
+        font-size: 0.9rem;
+        flex-shrink: 0;
+      }
+      .bdm-detail a {
+        color: var(--text, #111);
+        text-decoration: none;
+        word-break: break-all;
+      }
+      .bdm-detail a:hover { color: #2563eb; text-decoration: underline; }
+      .bdm-bio {
+        font-size: 0.85rem;
+        color: var(--muted, #555);
+        line-height: 1.6;
+        margin: 0;
+        border-left: 3px solid #2563eb;
+        padding-left: 0.85rem;
+      }
+    </style>
+
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section-title">Contact</div>
+        <div class="inquiry-wrap">
+          <h3>Send an Inquiry</h3>
+          <p class="inquiry-sub">Fill in your details and we will get back to you within 6 hours.</p>
+          <form id="inquiryForm" novalidate>
+            <div class="inq-row">
+              <div class="inq-field">
+                <label for="inq-name">Full Name *</label>
+                <input type="text" id="inq-name" name="name" placeholder="Your full name" required />
+              </div>
+              <div class="inq-field">
+                <label for="inq-phone">Phone Number</label>
+                <input type="tel" id="inq-phone" name="phone" placeholder="+880 ..." />
+              </div>
+              <div class="inq-field">
+                <label for="inq-email">Email Address *</label>
+                <input type="email" id="inq-email" name="email" placeholder="you@example.com" required />
+              </div>
+            </div>
+            <div class="inq-row-2">
+              <div class="inq-field">
+                <label for="inq-type">Inquiry Type *</label>
+                <select id="inq-type" name="type" required>
+                  <option value="" disabled selected>Select a topic</option>
+                  <option value="warranty">Warranty Claim</option>
+                  <option value="rma">RMA / Return</option>
+                  <option value="product">Product Question</option>
+                  <option value="order">Order &amp; Delivery Status</option>
+                  <option value="sales">Bulk Order / Reseller</option>
+                  <option value="drivers">Drivers</option>
+                  <option value="technical">Technical Support</option>
+                  <option value="other">Other</option>
+                </select>
+              </div>
+              <div class="inq-field">
+                <label for="inq-sku">Product SKU / Model (optional)</label>
+                <input type="text" id="inq-sku" name="sku" placeholder="e.g. AT22T, H81 V3 ..." />
+              </div>
+            </div>
+            <div class="inq-field full" id="rma-attach-wrap" style="display:none;">
+              <label for="inq-attach">Attach File <span id="attach-hint" style="font-weight:400;text-transform:none;font-size:0.78rem;color:var(--muted,#666);"></span></label>
+              <input type="file" id="inq-attach" name="attachment" accept=".pdf,.jpg,.jpeg,.png" />
+            </div>
+            <div class="inq-field full">
+              <label for="inq-message">Message *</label>
+              <textarea id="inq-message" name="message" placeholder="Describe your issue, question, or request in detail..." required></textarea>
+            </div>
+            <div class="inq-field full" style="margin-top:1rem;">
+              <div class="g-recaptcha" data-sitekey="6Lcq6cosAAAAAD4G976rcfipPihpU_Ia5pSa6-dm"></div>
+              <p id="recaptcha-error" style="display:none;margin-top:0.4rem;font-size:0.78rem;color:var(--accent,#ff4d2d);font-weight:600;">Please complete the reCAPTCHA challenge before submitting.</p>
+            </div>
+            <div aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden;">
+              <label for="inq-trap">Leave blank</label>
+              <input type="text" id="inq-trap" name="website" tabindex="-1" autocomplete="off" />
+            </div>
+            <div class="inq-footer">
+              <p>* Required fields &nbsp;·&nbsp; We respond within 6 hours on business days.</p>
+              <button class="cta" type="submit">Submit Inquiry</button>
+            </div>
+          </form>
+          <div class="inq-success" id="inqSuccess">
+            ✓ Inquiry submitted. Our team will contact you within 6 hours.
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <script>
+      (function () {
+
+        /* ── Obfuscated credentials (base64 — also set Allowed Domains in
+           EmailJS dashboard: https://dashboard.emailjs.com/admin/account) ── */
+        function _d(s) { return atob(s); }
+        var _sid = _d('c2VydmljZV9vdG9hem8z');           /* service_otoazo3  */
+        var _tid = _d('dGVtcGxhdGVfM3ZwaXNtcA==');        /* template id      */
+        var _pk  = _d('bGZCUHB4TklMRXVuSjdld3I=');         /* public key       */
+
+        emailjs.init({ publicKey: _pk });
+
+        /* ── Form load timestamp (time-gate: reject if < 4s) ─────────── */
+        var _loadedAt = Date.now();
+
+        /* ── Rate limit: max 3 submissions per hour via localStorage ──── */
+        var RL_KEY = 'atl_inq_rl';
+        function rateAllowed() {
+          var now = Date.now();
+          var raw = localStorage.getItem(RL_KEY);
+          var log = raw ? JSON.parse(raw) : [];
+          log = log.filter(function (t) { return now - t < 3600000; });
+          if (log.length >= 3) return false;
+          log.push(now);
+          localStorage.setItem(RL_KEY, JSON.stringify(log));
+          return true;
+        }
+
+        /* ── Input sanitiser (strips HTML tags) ─────────────────────── */
+        function clean(str) {
+          return String(str).replace(/<[^>]*>/g, '').trim().slice(0, 2000);
+        }
+
+        /* ── Attachment hint ─────────────────────────────────────────── */
+        var typeSelect = document.getElementById('inq-type');
+        var attachWrap = document.getElementById('rma-attach-wrap');
+        var attachInput = document.getElementById('inq-attach');
+        var attachHint = document.getElementById('attach-hint');
+
+        var hints = {
+          warranty:  '— proof of purchase or invoice (PDF, JPG, PNG · max 10 MB)',
+          rma:       '— proof of purchase, photos of the item, or invoice (PDF, JPG, PNG · max 10 MB)',
+          technical: '— screenshots or photos of the issue (JPG, PNG, PDF · max 10 MB)'
+        };
+
+        typeSelect.addEventListener('change', function () {
+          var show = this.value === 'rma' || this.value === 'warranty' || this.value === 'technical';
+          attachWrap.style.display = show ? 'flex' : 'none';
+          attachHint.textContent = show ? (hints[this.value] || '') : '';
+          if (!show) attachInput.value = '';
+        });
+
+        /* ── Toast countdown ─────────────────────────────────────────── */
+        var toastTimer = null;
+        var circumference = 2 * Math.PI * 9;
+
+        function showToast() {
+          var toast     = document.getElementById('inqToast');
+          var countdown = document.getElementById('toastCountdown');
+          var progress  = document.getElementById('toastProgress');
+          var total = 8, remaining = total;
+
+          progress.style.strokeDasharray  = circumference;
+          progress.style.strokeDashoffset = 0;
+          countdown.textContent = remaining;
+          toast.classList.add('visible');
+
+          toastTimer = setInterval(function () {
+            remaining--;
+            countdown.textContent = remaining;
+            progress.style.strokeDashoffset = circumference * (1 - remaining / total);
+            if (remaining <= 0) dismissToast();
+          }, 1000);
+        }
+
+        function dismissToast() {
+          clearInterval(toastTimer);
+          var toast = document.getElementById('inqToast');
+          toast.classList.remove('visible');
+          setTimeout(function () { toast.style.display = 'none'; }, 400);
+        }
+
+        document.getElementById('inqToastClose').addEventListener('click', dismissToast);
+
+        /* ── Form submit ─────────────────────────────────────────────── */
+        document.getElementById('inquiryForm').addEventListener('submit', function (e) {
+          e.preventDefault();
+
+          /* 1. Honeypot — bots fill the hidden field, humans don't */
+          if (document.getElementById('inq-trap').value !== '') return;
+
+          /* 2. Time-gate — reject submissions faster than 4 seconds */
+          if (Date.now() - _loadedAt < 4000) return;
+
+          /* 3. Rate limit */
+          if (!rateAllowed()) {
+            alert('Too many submissions. Please wait an hour before trying again.');
+            return;
+          }
+
+          /* 4. HTML5 validation */
+          if (!this.checkValidity()) { this.reportValidity(); return; }
+
+          /* 5. reCAPTCHA */
+          var rcError = document.getElementById('recaptcha-error');
+          var rcToken = typeof grecaptcha !== 'undefined' ? grecaptcha.getResponse() : '';
+          if (!rcToken) { rcError.style.display = 'block'; return; }
+          rcError.style.display = 'none';
+
+          var submitBtn = this.querySelector('[type="submit"]');
+          submitBtn.disabled    = true;
+          submitBtn.textContent = 'Sending…';
+
+          /* 6. Sanitise every field before sending */
+          var payload = {
+            to_email:     'abcomputerner@gmail.com',
+            from_name:    clean(document.getElementById('inq-name').value),
+            from_email:   clean(document.getElementById('inq-email').value),
+            phone:        clean(document.getElementById('inq-phone').value),
+            inquiry_type: clean(document.getElementById('inq-type').value),
+            sku:          clean(document.getElementById('inq-sku').value),
+            message:      clean(document.getElementById('inq-message').value),
+            recaptcha:    rcToken
+          };
+
+          emailjs.send(_sid, _tid, payload)
+          .then(function () {
+            document.getElementById('inquiryForm').style.display = 'none';
+            document.getElementById('inqSuccess').style.display = 'block';
+            showToast();
+          })
+          .catch(function () {
+            submitBtn.disabled    = false;
+            submitBtn.textContent = 'Submit Inquiry';
+            if (typeof grecaptcha !== 'undefined') grecaptcha.reset();
+            alert('Could not send your inquiry. Please try again or email support@atlas.com directly.');
+          });
+        });
+      })();
+    </script>
+
+    <section class="section" id="location">
+      <div class="container">
+        <div class="section-title">Location</div>
+        <div class="company-grid">
+          <div class="company-content">
+            <h2>AB Computer — Official Atlas Distributor</h2>
+            <p>Atlas products are serviced and available through AB Computer, the official Atlas distributor in Bangladesh since 2020.</p>
+            <ul class="company-list">
+              <li>Visit <a href="https://abcomputer.com.bd" target="_blank" rel="noopener noreferrer">abcomputer.com.bd</a> for location and hours</li>
+              <li>Authorized for warranty claims and RMA handling</li>
+              <li>Available for walk-in purchase and support</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section build" id="service">
+      <div class="container build-grid">
+        <div>
+          <h2>Service and Warranty</h2>
+          <p>We keep every product traceable with batch-level logs and service history.</p>
+        </div>
+        <div class="stats">
+          <div class="stat">
+            <div class="value">1–3 Yr</div>
+            <div class="label">Warranty</div>
+          </div>
+          <div class="stat">
+            <div class="value">6h</div>
+            <div class="label">Initial response</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <style>
+      #policies {
+        position: relative;
+        overflow: hidden;
+        background: linear-gradient(135deg, #0f141b 0%, #1d2840 100%);
+        color: #fff;
+      }
+      #policies .section-title { color: #fff; }
+      #policies::before {
+        content: '';
+        position: absolute;
+        inset: 0;
+        pointer-events: none;
+        background:
+          radial-gradient(700px 400px at 5% 85%, rgba(255,77,45,0.3), transparent 60%),
+          radial-gradient(600px 380px at 95% 10%, rgba(45,212,255,0.22), transparent 60%),
+          radial-gradient(400px 300px at 50% 50%, rgba(255,183,3,0.12), transparent 60%);
+        animation: quality-shift 9s ease-in-out infinite alternate;
+        z-index: 0;
+      }
+      #policies::after {
+        content: '';
+        position: absolute;
+        inset: 0;
+        pointer-events: none;
+        background: repeating-linear-gradient(
+          120deg,
+          rgba(255,255,255,0.025) 0px,
+          rgba(255,255,255,0.025) 1px,
+          transparent 1px,
+          transparent 52px
+        );
+        z-index: 0;
+      }
+      #policies .container { position: relative; z-index: 1; }
+      #policies .specs-table {
+        background: rgba(255,255,255,0.04);
+        border-color: rgba(255,255,255,0.1);
+        box-shadow: none;
+      }
+      #policies .specs-table thead { background: rgba(255,255,255,0.06); }
+      #policies .specs-table table { background: transparent; }
+      #policies .specs-table th { color: rgba(255,255,255,0.5); border-color: rgba(255,255,255,0.1); }
+      #policies .specs-table td { color: rgba(255,255,255,0.85); border-color: rgba(255,255,255,0.1); }
+      #policies .specs-table tbody tr:hover { background: rgba(255,255,255,0.05); }
+      .policies-orb {
+        position: absolute;
+        border-radius: 50%;
+        pointer-events: none;
+        z-index: 0;
+        animation: quality-float 7s ease-in-out infinite alternate;
+      }
+      .policies-orb-a {
+        width: 260px; height: 260px;
+        background: radial-gradient(circle, rgba(45,212,255,0.3), transparent 70%);
+        top: -60px; right: -60px;
+        filter: blur(50px);
+        animation-delay: 0s;
+      }
+      .policies-orb-b {
+        width: 220px; height: 220px;
+        background: radial-gradient(circle, rgba(255,77,45,0.28), transparent 70%);
+        bottom: -40px; left: -40px;
+        filter: blur(45px);
+        animation-delay: -3s;
+      }
+    </style>
+
+    <section class="section" id="policies">
+      <div class="policies-orb policies-orb-a" aria-hidden="true"></div>
+      <div class="policies-orb policies-orb-b" aria-hidden="true"></div>
+      <div class="container">
+        <div class="section-title">Support Policies</div>
+        <div class="specs-table">
+          <table>
+            <thead>
+              <tr>
+                <th>Topic</th>
+                <th>Details</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Warranty</td>
+                <td>1 to 3 year manufacturer warranty with proof of purchase.</td>
+              </tr>
+              <tr>
+                <td>RMA Process</td>
+                <td>Submit a ticket, receive an RMA number, then ship or visit the service desk.</td>
+              </tr>
+              <tr>
+                <td>Diagnostics</td>
+                <td>Initial diagnostics completed within 2 or 5 working days.</td>
+              </tr>
+              <tr>
+                <td>Replacement</td>
+                <td>Instant replacement on valid claim.</td>
+              </tr>
+              <tr>
+                <td>Support Articles</td>
+                <td>Quick start guides, BIOS updates, and troubleshooting checklists.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <h4>Atlas</h4>
+        <p>Hardware built for dependable performance.</p>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <a href="company.html">Company</a>
+        <a href="about-atlas.html">About Atlas</a>
+      </div>
+      <div>
+        <h4>Support</h4>
+        <a href="support.html">Support</a>
+      </div>
+      <div>
+        <h4>Legal</h4>
+        <a href="privacy-policy.html">Privacy Policy</a>
+        <a href="terms-conditions.html">Terms &amp; Conditions</a>
+      </div>
+    </div>
+    <div class="footer-bottom">© 2026 Atlas. All Rights Reserved.</div>
+  </footer>
+  <script defer src="seo.js"></script>
+  <script defer src="image-optimizer.js"></script>
+  <script defer src="nav.js"></script>
+  <script defer src="site.js"></script>
+</body>
+</html>

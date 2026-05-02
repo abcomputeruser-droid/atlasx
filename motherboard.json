@@ -1,0 +1,202 @@
+{
+    "brand":  {
+                  "name":  "Atlas",
+                  "tagline":  "Motherboards"
+              },
+    "tag":  "Motherboard",
+    "navigation":  [
+                       {
+                           "label":  "All Products",
+                           "href":  "all-products.html"
+                       },
+                       {
+                           "label":  "Motherboards",
+                           "href":  "motherboard.html"
+                       },
+                       {
+                           "label":  "Monitors",
+                           "href":  "monitor.html"
+                       }
+                   ],
+    "hero":  {
+                 "eyebrow":  "Atlas Motherboards",
+                 "title":  "RAVEN boards for real workloads.",
+                 "subtitle":  "Four motherboards covering Intel 2nd-9th gen and Ryzen 1000-5600 builds.",
+                 "image":  "assets/images/products/raven-h311-v1-main.png",
+                 "chips":  [
+                               {
+                                   "value":  "Intel 2nd-9th",
+                                   "label":  "Core support"
+                               },
+                               {
+                                   "value":  "Ryzen 1000-5600",
+                                   "label":  "AM4 range"
+                               },
+                               {
+                                   "value":  "DDR3 / DDR4",
+                                   "label":  "Memory"
+                               }
+                           ],
+                 "badges":  [
+                                "ATX",
+                                "Micro-ATX",
+                                "M.2 NVMe"
+                            ]
+             },
+    "overview":  {
+                     "title":  "RAVEN platforms for real-world compatibility.",
+                     "body":  "Atlas motherboards cover the builds that actually exist in homes, offices, labs, and shops, with Intel 2nd through 9th gen support plus AM4 coverage for Ryzen 1000 through 5600.",
+                     "stats":  [
+                                   {
+                                       "value":  "Intel 2nd-9th",
+                                       "label":  "Core coverage"
+                                   },
+                                   {
+                                       "value":  "Ryzen 1000-5600",
+                                       "label":  "AM4 coverage"
+                                   },
+                                   {
+                                       "value":  "DDR3 / DDR4",
+                                       "label":  "Memory support"
+                                   },
+                                   {
+                                       "value":  "1-3 Years",
+                                       "label":  "Warranty"
+                                   }
+                               ],
+                     "cards":  [
+                                   {
+                                       "title":  "Compatibility first",
+                                       "body":  "The lineup spans older Intel platforms through modern AM4 builds without unnecessary complexity."
+                                   },
+                                   {
+                                       "title":  "Storage ready",
+                                       "body":  "M.2 NVMe and SATA coverage keep Atlas boards practical for daily-use systems and upgrades."
+                                   },
+                                   {
+                                       "title":  "Built for uptime",
+                                       "body":  "Stable power delivery, dependable ports, and straightforward support keep real-world systems running."
+                                   }
+                               ]
+                 },
+    "productsTitle":  "Featured Motherboards",
+    "products":  [
+                     {
+                         "title":  "ATLAS RAVEN H311 V1 Motherboard with DDR4, M.2 for Intel 6th-9th Gen",
+                         "subtitle":  "H311 chipset, Micro-ATX, DDR4",
+                         "image":  "assets/images/products/raven-h311-v1-main.png",
+                         "price":  "BDT 5,460",
+                         "url":  "atlas-raven-h311-v1-motherboard-with-ddr4-m-2-for-intel-6th-9th-gen.html",
+                         "features":  [
+                                          "Wide CPU Support - Compatible with Intel 6th to 9th Gen processors",
+                                          "Fast Memory Performance - Dual-channel DDR4 up to 32GB, speeds reaching 2666MHz"
+                                      ]
+                     },
+                     {
+                         "title":  "ATLAS RAVEN B450M Frost - Micro-ATX AM4 Motherboard with Ryzen 1000-5600 Support",
+                         "subtitle":  "B450 chipset, Micro-ATX, AM4",
+                         "image":  "assets/images/products/raven-b450m-frost-main.png",
+                         "price":  "BDT 7,700",
+                         "url":  "atlas-raven-b450m-frost-micro-atx-am4-motherboard-with-ryzen-1000-5600-support.html",
+                         "features":  [
+                                          "Wide CPU Support - Compatible with AMD Ryzen 1st-5th Gen processors on the AM4 socket",
+                                          "High-Speed Memory - Dual DDR4 slots supporting up to 32 GB and 3200 MHz (OC)"
+                                      ]
+                     },
+                     {
+                         "title":  "ATLAS RAVEN H61 V3 Motherboard with DDR3, HDMI \u0026 M.2 NVMe Slot",
+                         "subtitle":  "H61 chipset, DDR3",
+                         "image":  "assets/images/products/raven-h61-v3-main.png",
+                         "price":  "BDT 2,470",
+                         "url":  "atlas-raven-h61-v3-motherboard-with-ddr3-hdmi-m-2-nvme-slot.html",
+                         "features":  [
+                                          "Wide CPU Support - Compatible with Intel 2nd \u0026 3rd Gen Core i7/i5/i3, Pentium, and Celeron processors (up to 95W TDP)",
+                                          "Efficient Memory Performance - Supports up to 16 GB DDR3 RAM with speeds up to 1600 MHz"
+                                      ]
+                     },
+                     {
+                         "title":  "ATLAS RAVEN H81 V3- Reliable ATX Motherboard for 4th Gen Intel CPUs",
+                         "subtitle":  "H81 chipset",
+                         "image":  "assets/images/products/raven-h81-v3-main.png",
+                         "price":  "BDT 2,990",
+                         "url":  "atlas-raven-h81-v3-reliable-atx-motherboard-for-4th-gen-intel-cpus.html",
+                         "features":  [
+                                          "4th Gen Intel CPU Support - Compatible with Intel Core i7/i5/i3, Pentium, and Celeron processors (up to 95W)",
+                                          "Efficient Memory Performance - Supports up to 16 GB DDR3 RAM (1066/1333/1600 MHz)"
+                                      ]
+                     }
+                 ],
+    "specs":  {
+                  "title":  "Motherboard comparison",
+                  "headers":  [
+                                  "Model",
+                                  "Chipset",
+                                  "Key Feature",
+                                  "Warranty"
+                              ],
+                  "rows":  [
+                               [
+                                   "RAVEN H311 V1",
+                                   "H311",
+                                   "DDR4, M.2 NVMe",
+                                   "1 Year"
+                               ],
+                               [
+                                   "RAVEN B450M Frost",
+                                   "B450",
+                                   "AM4, Ryzen 1000-5600",
+                                   "3 Years"
+                               ],
+                               [
+                                   "RAVEN H61 V3",
+                                   "H61",
+                                   "DDR3, HDMI, M.2",
+                                   "1 Year"
+                               ],
+                               [
+                                   "RAVEN H81 V3",
+                                   "H81",
+                                   "DDR3, 4th Gen Intel",
+                                   "1 Year"
+                               ]
+                           ]
+              },
+    "footer":  {
+                   "about":  "Atlas motherboards are built for stable daily systems.",
+                   "resources":  [
+                                     {
+                                         "label":  "Company",
+                                         "href":  "company.html"
+                                     },
+                                     {
+                                         "label":  "Support",
+                                         "href":  "support.html"
+                                     },
+                                     {
+                                         "label":  "About Atlas",
+                                         "href":  "about-atlas.html"
+                                     }
+                                 ],
+                   "follow":  [
+                                  {
+                                      "label":  "Facebook",
+                                      "href":  "#"
+                                  },
+                                  {
+                                      "label":  "YouTube",
+                                      "href":  "#"
+                                  }
+                              ],
+                   "legal":  [
+                                 {
+                                     "label":  "Privacy Policy",
+                                     "href":  "privacy-policy.html"
+                                 },
+                                 {
+                                     "label":  "Terms \u0026 Conditions",
+                                     "href":  "terms-conditions.html"
+                                 }
+                             ],
+                   "note":  "Copyright 2026 Atlas. All Rights Reserved."
+               }
+}

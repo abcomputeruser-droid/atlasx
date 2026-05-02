@@ -1,0 +1,158 @@
+{
+    "brand":  {
+                  "name":  "Atlas",
+                  "tagline":  "Value-Driven Components"
+              },
+    "navigation":  [
+                       {
+                           "label":  "Home",
+                           "href":  "index.html"
+                       },
+                       {
+                           "label":  "All Products",
+                           "href":  "all-products.html"
+                       },
+                       {
+                           "label":  "Product",
+                           "items":  [
+                                         {
+                                             "label":  "Motherboard",
+                                             "href":  "motherboard.html"
+                                         },
+                                         {
+                                             "label":  "Monitor",
+                                             "href":  "monitor.html"
+                                         }
+                                     ]
+                       },
+                       {
+                           "label":  "Company",
+                           "href":  "company.html"
+                       },
+                       {
+                           "label":  "Download",
+                           "href":  "#"
+                       },
+                       {
+                           "label":  "Contact",
+                           "href":  "#"
+                       },
+                       {
+                           "label":  "About Atlas",
+                           "href":  "about-atlas.html"
+                       }
+                   ],
+    "hero":  {
+                 "slides":  [
+                                {
+                                    "title":  "Performance essentials for every build",
+                                    "subtitle":  "Atlas delivers dependable chassis, cooling, and accessories.",
+                                    "image":  "assets/images/pages/atlas-pc-build.jpg"
+                                },
+                                {
+                                    "title":  "RGB-ready cooling made simple",
+                                    "subtitle":  "Quiet airflow tuned for modern rigs.",
+                                    "image":  "assets/images/pages/atlas-cooling-rig.jpg"
+                                },
+                                {
+                                    "title":  "Monitors built for long sessions",
+                                    "subtitle":  "Crisp panels with comfortable viewing.",
+                                    "image":  "assets/images/pages/atlas-monitor-display.jpg"
+                                }
+                            ]
+             },
+    "categories":  [
+                       {
+                           "title":  "Case",
+                           "image":  "assets/images/pages/atlas-pc-build.jpg"
+                       },
+                       {
+                           "title":  "Cooler Fan",
+                           "image":  "assets/images/pages/atlas-workstation.jpg"
+                       },
+                       {
+                           "title":  "Monitor",
+                           "image":  "assets/images/pages/atlas-monitor-display.jpg"
+                       },
+                       {
+                           "title":  "Power Supply",
+                           "image":  "assets/images/pages/atlas-power-supply.jpg"
+                       }
+                   ],
+    "gallery":  [
+                    "assets/images/pages/atlas-cooling-rig.jpg",
+                    "assets/images/pages/atlas-monitor-display.jpg",
+                    "assets/images/pages/atlas-pc-build.jpg",
+                    "assets/images/pages/atlas-workstation.jpg",
+                    "assets/images/pages/atlas-power-supply.jpg",
+                    "assets/images/pages/atlas-workstation.jpg"
+                ],
+    "build":  {
+                  "title":  "Build your ideal Computer With Atlas",
+                  "body":  "Atlas has been providing exciting new chassis to meet the growing demands of PC builders. Not only chassis, Atlas brings you top quality accessories that give the best value for money."
+              },
+    "stats":  [
+                  {
+                      "value":  "17",
+                      "label":  "Years of Innovation"
+                  },
+                  {
+                      "value":  "78",
+                      "label":  "Models"
+                  },
+                  {
+                      "value":  "12",
+                      "label":  "Product Lines"
+                  },
+                  {
+                      "value":  "1",
+                      "label":  "Country"
+                  }
+              ],
+    "featured":  [
+                     {
+                         "title":  "VT500",
+                         "subtitle":  "High Fidelity Wireless Soundbar",
+                         "image":  "assets/images/pages/atlas-soundbar.jpg"
+                     },
+                     {
+                         "title":  "W1298S",
+                         "subtitle":  "RGB Fan",
+                         "image":  "assets/images/pages/atlas-workstation.jpg"
+                     }
+                 ],
+    "footer":  {
+                   "about":  "Manufacturer of best computer accessories. We are your most reliable partner.",
+                   "resources":  [
+                                     {
+                                         "label":  "Home",
+                                         "href":  "index.html"
+                                     },
+                                     {
+                                         "label":  "Company",
+                                         "href":  "company.html"
+                                     }
+                                 ],
+                   "follow":  [
+                                  {
+                                      "label":  "Facebook",
+                                      "href":  "#"
+                                  },
+                                  {
+                                      "label":  "YouTube",
+                                      "href":  "#"
+                                  }
+                              ],
+                   "legal":  [
+                                 {
+                                     "label":  "Privacy Policy",
+                                     "href":  "privacy-policy.html"
+                                 },
+                                 {
+                                     "label":  "Terms \u0026 Conditions",
+                                     "href":  "terms-conditions.html"
+                                 }
+                             ],
+                   "note":  "� 2026 Atlas. All Rights Reserved."
+               }
+}

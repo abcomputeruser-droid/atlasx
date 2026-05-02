@@ -1,0 +1,287 @@
+{
+    "brand": {
+        "name": "Atlas",
+        "tagline": "Monitors"
+    },
+    "tag": "Monitor",
+    "navigation": [
+        {
+            "label": "All Products",
+            "href": "all-products.html"
+        },
+        {
+            "label": "Motherboards",
+            "href": "motherboard.html"
+        },
+        {
+            "label": "Monitors",
+            "href": "monitor.html"
+        }
+    ],
+    "hero": {
+        "eyebrow": "Atlas Monitors",
+        "title": "Displays built for daily use.",
+        "subtitle": "Nine monitor models from 17 to 24 inches with HDMI and VGA on every display.",
+        "image": "assets/images/products/ats22ifw100-main.png",
+        "chips": [
+            {
+                "value": "17-24 in",
+                "label": "Display range"
+            },
+            {
+                "value": "60-100Hz",
+                "label": "Refresh"
+            },
+            {
+                "value": "IPS / VA",
+                "label": "Panel mix"
+            }
+        ],
+        "badges": [
+            "HDMI + VGA",
+            "IPS / VA",
+            "1-3 Yr Warranty"
+        ]
+    },
+    "overview": {
+        "title": "Displays built for real workloads.",
+        "body": "Atlas monitors cover offices, schools, shops, and CCTV setups across Bangladesh, with 17 to 24 inch panels, HDMI and VGA on every model, and refresh rates from 60Hz to 100Hz.",
+        "stats": [
+            {
+                "value": "17-24 in",
+                "label": "Screen sizes"
+            },
+            {
+                "value": "60-100Hz",
+                "label": "Refresh range"
+            },
+            {
+                "value": "HDMI + VGA",
+                "label": "Every display"
+            },
+            {
+                "value": "1-3 Years",
+                "label": "Warranty"
+            }
+        ],
+        "cards": [
+            {
+                "title": "Connectivity",
+                "body": "Every Atlas monitor ships with both HDMI and VGA for straightforward compatibility."
+            },
+            {
+                "title": "Panel options",
+                "body": "IPS and VA panels cover daily office work, retail counters, classrooms, and CCTV setups."
+            },
+            {
+                "title": "Range coverage",
+                "body": "Nine models span compact 17 inch displays through 24 inch Full HD and 100Hz options."
+            }
+        ]
+    },
+    "productsTitle": "Featured Monitors",
+    "products": [
+        {
+            "title": "ATLAS ATS24IFB100 23.8-Inch IPS FHD Monitor with 100Hz Refresh Rate",
+            "subtitle": "23.8-inch, IPS A+, 100Hz",
+            "image": "assets/images/products/ats24ifb100-main.png",
+            "price": "",
+            "url": "atlas-ats24ifb100-23-8-inch-ips-fhd-100hz-monitor.html",
+            "features": [
+                "Premium IPS A+ Grade Display - 23.8-inch 1920×1080 Full HD panel with vivid, accurate colors and 178° viewing angles",
+                "100Hz Refresh Rate - Smoother motion and reduced blur for gaming and daily use, backed by a 3-year warranty"
+            ]
+        },
+        {
+            "title": "ATLAS 21.5\" Full HD LED Monitor – 1920×1080, 60Hz, HDMI + VGA, 5ms Response",
+            "subtitle": "21.5-inch, Full HD, 60Hz, White",
+            "image": "assets/images/products/ats22fw060-main.png",
+            "price": "",
+            "url": "atlas-21-5-full-hd-led-monitor-1920x1080-60hz-hdmi-vga-5ms-white.html",
+            "features": [
+                "Full HD Display - 21.5-inch 1920×1080 panel with 16:9 aspect ratio for sharp, clear visuals",
+                "Slim Frameless White Design - Anti-glare screen, tilt stand, HDMI & VGA connectivity"
+            ]
+        },
+        {
+            "title": "ATLAS Elite Series ATS22VFW100E 21.5\" 100Hz Full HD LED Monitor",
+            "subtitle": "21.5-inch, 100Hz, Elite Series, 3000:1",
+            "image": "assets/images/products/ats22vfw100e-main.png",
+            "price": "",
+            "url": "atlas-ats22vfw100e-elite-series-21-5-100hz-full-hd-led-monitor.html",
+            "features": [
+                "High Contrast Full HD - 1920x1080 with 3000:1 contrast ratio and dynamic LED backlighting for vivid, deep visuals",
+                "100Hz Refresh Rate - Smoother motion and reduced blur, ideal for daily use and gaming"
+            ]
+        },
+        {
+            "title": "ATLAS 22\" HD LED Monitor 16:10 Aspect Ratio, VGA & HDMI Input",
+            "subtitle": "22-inch, 16:10, HD panel",
+            "image": "assets/images/products/monitor-22-hd-main.png",
+            "price": "BDT 7,600",
+            "url": "atlas-22-hd-led-monitor-1610-aspect-ratio-vga-hdmi-input.html",
+            "features": [
+                "High Definition Display - 22-inch screen with 1680 x 1050 resolution and a 16:10 aspect ratio for clear and sharp visuals",
+                "Fast Response Time - 5ms response time for smooth performance, ideal for gaming and multimedia"
+            ]
+        },
+        {
+            "title": "ATLAS 19\" Full HD LED Monitor with HDMI & VGA Ports",
+            "subtitle": "19-inch, 16:10, Full HD",
+            "image": "assets/images/products/monitor-19-main.png",
+            "price": "BDT 6,200",
+            "url": "atlas-19-full-hd-led-monitor-with-hdmi-vga-ports.html",
+            "features": [
+                "HD Resolution & Wide Screen - 19-inch display with 1440x900 resolution and a 16:10 aspect ratio for clear and immersive visuals",
+                "Fast Response Time - 5ms response time for smooth, blur-free visuals, ideal for fast-paced tasks and gaming"
+            ]
+        },
+        {
+            "title": "ATLAS 17 Inch Square LED Monitor HDMI & VGA Support",
+            "subtitle": "17-inch, 4:3, Square",
+            "image": "assets/images/products/monitor-17-square-main.png",
+            "price": "BDT 5,500",
+            "url": "atlas-17-inch-square-led-monitor-hdmi-vga-anti-glare-5ms-response.html",
+            "features": [
+                "High-Definition Display - 17-inch screen with 1280x1024 HD resolution for sharp visuals",
+                "Fast Response Time - 5ms response time for smooth, blur-free visuals during fast-moving scenes"
+            ]
+        },
+        {
+            "title": "ATLAS ATS22VFB100 22 Inch Full HD 100Hz Monitor for Editors & Pros",
+            "subtitle": "22-inch, 100Hz, Pro Series",
+            "image": "assets/images/products/ats22vfb100-main.png",
+            "price": "BDT 10,500",
+            "url": "atlas-ats22vfb100-22-inch-full-hd-100hz-monitor-for-editors-pros.html",
+            "features": [
+                "Full HD Display - 22-inch screen with a 1920x1080 resolution for sharp, detailed visuals",
+                "100Hz Refresh Rate - Smooth motion and reduced blur, perfect for gaming and fast-moving content"
+            ]
+        },
+        {
+            "title": "ATLAS ATS22IFW100 Pro Series 21.5\" IPS 100Hz LED Monitor in White Crisp Visuals",
+            "subtitle": "21.5-inch, IPS, 100Hz",
+            "image": "assets/images/products/ats22ifw100-main.png",
+            "price": "BDT 11,500",
+            "url": "atlas-ats22ifw100-pro-series-21-5-ips-100hz-led-monitor-in-white-crisp-visuals.html",
+            "features": [
+                "Full HD 1920x1080 Resolution - Delivers sharp and detailed visuals for a clear viewing experience",
+                "100Hz Refresh Rate - Ensures smooth motion with reduced blur, ideal for gaming and fast-moving content"
+            ]
+        },
+        {
+            "title": "ATLAS ATS22VFW100 Gamer's Edition 21.5\" 100Hz Fast-Response Gaming LED Monitor",
+            "subtitle": "21.5-inch, 100Hz, Gaming",
+            "image": "assets/images/products/ats22vfw100-main.png",
+            "price": "BDT 10,500",
+            "url": "atlas-ats22vfw100-gamers-edition-21-5-100hz-fast-response-gaming-led-monitor.html",
+            "features": [
+                "Full HD 1920x1080 Resolution - Provides crisp, sharp visuals for an immersive viewing experience",
+                "100Hz Refresh Rate - Ensures smoother motion, ideal for gaming and fast-moving content"
+            ]
+        }
+    ],
+    "specs": {
+        "title": "Monitor comparison",
+        "headers": [
+            "Model",
+            "Type",
+            "Key Feature",
+            "Warranty"
+        ],
+        "rows": [
+            [
+                "ATS24IFB100",
+                "IPS 100Hz",
+                "FHD, 100Hz, 24\"",
+                "3 Years"
+            ],
+            [
+                "ATS22FW060",
+                "60Hz",
+                "FHD, 5ms, White",
+                "Standard"
+            ],
+            [
+                "ATS22VFW100E",
+                "Elite 100Hz",
+                "FHD, 100Hz, 3000:1",
+                "Standard"
+            ],
+            [
+                "ATLAS 22\" HD LED",
+                "16:10",
+                "Anti-glare, 5ms",
+                "1 Year"
+            ],
+            [
+                "ATLAS 19\" Full HD",
+                "16:10",
+                "1440x900, 5ms",
+                "1 Year"
+            ],
+            [
+                "ATLAS 17\" Square",
+                "4:3",
+                "1280x1024, 5ms",
+                "1 Year"
+            ],
+            [
+                "ATS22VFB100",
+                "100Hz",
+                "FHD, 100Hz",
+                "3 Years"
+            ],
+            [
+                "ATS22IFW100",
+                "IPS 100Hz",
+                "IPS, 100Hz, White",
+                "3 Years"
+            ],
+            [
+                "ATS22VFW100",
+                "Gaming 100Hz",
+                "Gaming, 100Hz",
+                "3 Years"
+            ]
+        ]
+    },
+    "footer": {
+        "about": "Atlas monitors are built for real daily-use setups.",
+        "resources": [
+            {
+                "label": "Company",
+                "href": "company.html"
+            },
+            {
+                "label": "Support",
+                "href": "support.html"
+            },
+            {
+                "label": "About Atlas",
+                "href": "about-atlas.html"
+            }
+        ],
+        "follow": [
+            {
+                "label": "Facebook",
+                "href": "#"
+            },
+            {
+                "label": "YouTube",
+                "href": "#"
+            }
+        ],
+        "legal": [
+            {
+                "label": "Privacy Policy",
+                "href": "privacy-policy.html"
+            },
+            {
+                "label": "Terms & Conditions",
+                "href": "terms-conditions.html"
+            }
+        ],
+        "note": "Copyright 2026 Atlas. All Rights Reserved."
+    }
+}
